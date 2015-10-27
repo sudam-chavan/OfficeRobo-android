@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <TextView
+        android:text="Hello World!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Connect"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_bright"
+        android:id="@+id/connect"/>
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Disconnect"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_bright"
+        android:id="@+id/disconnect"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Forward"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_bright"
+        android:id="@+id/forward"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Backward"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:background="@android:color/holo_blue_bright"
+        android:id="@+id/backward"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Left"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:background="@android:color/holo_blue_bright"
+        android:id="@+id/left"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Right"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:background="@android:color/holo_blue_bright"
+        android:id="@+id/right"/>
+
+</LinearLayout>
